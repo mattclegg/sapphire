@@ -48,7 +48,7 @@ In order to use more database specific or complex index notations, we also suppo
 		private static $indexes = array(
 			'MyIndexName' => array(
 				'type' => 'index', 
-				'value' => '"MyField","MyOtherField"'
+				'columns' => '"MyField","MyOtherField"'
 			)
 		);
 	}
